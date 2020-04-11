@@ -12,4 +12,8 @@ public class Test {
 	public LocalDate getCurrentDate()	{
 		return LocalDate.now();
 	}
+	
+	public void printMessage()	{
+		System.out.println("Hello Everybody");
+	}
 }
