@@ -12,4 +12,8 @@ public class Test {
 	public LocalDate getCurrentDate()	{
 		return LocalDate.now();
 	}
+	
+	public void display(String data)	{
+		System.out.println(data);
+	}
 }
