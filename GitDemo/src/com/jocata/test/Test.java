@@ -13,7 +13,7 @@ public class Test {
 		return LocalDate.now();
 	}
 	
-	public void display(String data)	{
-		System.out.println(data);
+	public void printMessage()	{
+		System.out.println("Hello Everybody");
 	}
 }
